@@ -8,24 +8,24 @@
 //---------------------------------------------------------------------------------------------------Initialization-----------------------------------------------------------------------------------//
 
 ////Wave Properties//// [Note: T_min [s] = 0.15*A [cm]]
-  double center_cm = 18; //[cm from top limit to center of movement]
+  double center_cm = 19; //[cm] from top limit to center of movement
   double amplitude = 1;  //[cm]
-  double period = 0.25;  //[s]
+  double period = 0.5;  //[s]
 
 ////Wavemaker Properties////
   double limit_distance = 22.855;
 
 ////Tolerance Properties////
   double position_resolution = 25;
-  double step_resolution = 25;
+  double step_resolution = 25; 
   double period_resolution = 10;
 
 ////Calibration Properties////
-  double homing_delay = 1;
+  double homing_delay = 1; 
   double homing_speed = 100000;
-  double homing_accel = 100000;
-  int iteration_max = 30;
-  double ratio = 0.3333333;
+  double homing_accel = 100000; 
+  int iteration_max = 30; 
+  double ratio = 0.3333333; 
 
 ////Pin Definitions////
   #define top_home_switch 13
